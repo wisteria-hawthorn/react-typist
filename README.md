@@ -1,5 +1,5 @@
 oh hey
-
+ 
 this repo is probably going to be a bit of a mess for a while...
 
 I'm trying to cement everything we've learned on Week 7 by creating this typing sample app.
