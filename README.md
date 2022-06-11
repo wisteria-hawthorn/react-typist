@@ -1,3 +1,21 @@
+oh hey
+
+this repo is probably going to be a bit of a mess for a while...
+
+I'm trying to cement everything we've learned on Week 7 by creating this typing sample app.
+
+hopefully, it'll eventually:
+
+- generate a sample of text (one of a few I've provided)
+- allow the user to enter text into the input field, word by word
+- word by word, change the sample text colour to signify accurate / innacurate input
+- calculate the user's WPM and display this number.
+
+I have some other ideas, but this will do for now...
+
+
+
+-------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
