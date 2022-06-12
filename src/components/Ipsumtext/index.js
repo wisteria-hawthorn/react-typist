@@ -18,6 +18,13 @@ function IpsumTextGen() {
     const newIpsumArr = [...ipsMyst]
     
 
+    // maybe map over the array for styling?
+    // - OG array: whole thing is colorOne.
+    // - change with state (?): 
+    //    - each [array index] is set to colorTwo if input matches [array index] exactly
+    //    - each [array index] is set to colorThree if input DOESN'T match [array index] exactly
+    //    - can we use expect.toEqual? 
+
     // RENDER & RETURN: - renders the generated array as a para
     return (
         <div className="ipsumtextcontainer">
@@ -31,7 +38,7 @@ export default IpsumTextGen;
 
 
 
-
+// Notes: idk if I'm using the components in the right way here, or whether I should be renderinng them directly from the import; here, or in a different file.
 
 
 
