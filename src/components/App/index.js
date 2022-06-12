@@ -3,10 +3,11 @@
 // THIS PAGE'S FUNCTION RENDERS THE APP TO THE BROWSER.
 
 // IMPORTS:
+import React from 'react';
 import './App.css';
 import {useState} from "react";
 import InputField from "../Inputfield";
-import { IpsumTextGen } from "../Ipsumtext";
+import IpsumTextGen from "../Ipsumtext";
 
 
 // FUNCTION: APP COMPONENT

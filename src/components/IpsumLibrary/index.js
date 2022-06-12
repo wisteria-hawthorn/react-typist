@@ -7,15 +7,13 @@
 
 import React from "react";
 
-
-
 // VARIABLES:
 
-const ipsMyst = ["It's" , "so" , "unsettling" ,  "to" , "feel" , "anything" , "but" , "good." , "I" , "wish" , "I" , "was" , "only" , "as" , "cruel" , "as" , "the" , "first" , "time" , "I" , "noticed" , "I" , "was" , "cruel," , "waving" , "my" , "tiny" , "shadow" , "over" , "a" , "pond" , "to" , "scare" , "the" , "copper" , "minnows."]
+export const ipsMyst = ["It's" , "so" , "unsettling" ,  "to" , "feel" , "anything" , "but" , "good." , "I" , "wish" , "I" , "was" , "only" , "as" , "cruel" , "as" , "the" , "first" , "time" , "I" , "noticed" , "I" , "was" , "cruel," , "waving" , "my" , "tiny" , "shadow" , "over" , "a" , "pond" , "to" , "scare" , "the" , "copper" , "minnows."]
 
-const ipsEmily = "This traverse may the poorest take, without oppress of toll, how frugal is the chariot that bears the human soul."
+export const ipsEmily = "This traverse may the poorest take, without oppress of toll, how frugal is the chariot that bears the human soul."
 
-const ipsAnthro = {
+export const ipsAnthro = {
     
     anthroOne : [ "It's" , "no" , "wonder" , "we" , "worry" , "about" , "the" , "end" , "of" , "the" , "world;" , "worlds" , "end" , "all" , "the" , "time."] ,
     
@@ -29,7 +27,9 @@ console.log(ipsEmily);
 console.log(ipsAnthro);
 
 
-export { ipsMyst } from "/index.js"
+// EXPORTS:
+// We're exporting these inline because it's easier to keep track of what we've exported that way.
+
 
 
 

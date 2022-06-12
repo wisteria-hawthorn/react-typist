@@ -38,7 +38,7 @@ export default IpsumTextGen;
 
 
 
-// Notes: idk if I'm using the components in the right way here, or whether I should be renderinng them directly from the import; here, or in a different file.
+// Notes: idk if I'm using the components in the right way here, or whether I should be rendering them directly from the import; here, or in a different file.
 
 
 
