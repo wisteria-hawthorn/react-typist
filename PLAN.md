@@ -12,7 +12,14 @@ x - create the skeleton / boilerplate
   - organise the file system
   - sort our the import / export syntax
   - add components
+----------------
 
+WHERE YOU'RE AT:
+- tried to fix all the import / export syntax but have probably missed some
+- tried to fix file system but probs got some wrong idk
+- the app won't display, just says "module not found" for ./src/index.js
+- I don't really have time to fix this today so let's hope I gain some insight that'll help me fix it faster next time lol.
+- ~ an attempt was made ~
 
 
   

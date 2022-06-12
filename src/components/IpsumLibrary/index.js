@@ -3,6 +3,14 @@
 
 // 11/06/22 -- experimenting with what method I should use; full string vs. array storing each word
 
+// IMPORTS:
+
+import React from "react";
+
+
+
+// VARIABLES:
+
 const ipsMyst = ["It's" , "so" , "unsettling" ,  "to" , "feel" , "anything" , "but" , "good." , "I" , "wish" , "I" , "was" , "only" , "as" , "cruel" , "as" , "the" , "first" , "time" , "I" , "noticed" , "I" , "was" , "cruel," , "waving" , "my" , "tiny" , "shadow" , "over" , "a" , "pond" , "to" , "scare" , "the" , "copper" , "minnows."]
 
 const ipsEmily = "This traverse may the poorest take, without oppress of toll, how frugal is the chariot that bears the human soul."
@@ -15,7 +23,13 @@ const ipsAnthro = {
 
 };
 
-export {ipsMyst} from IpsumLibs.js;
+// No unused vars... fine VS Code, I'll use 'em.
+console.log(ipsMyst);
+console.log(ipsEmily);
+console.log(ipsAnthro);
+
+
+export { ipsMyst } from "/index.js"
 
 
 

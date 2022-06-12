@@ -5,8 +5,8 @@
 // IMPORTS:
 import './App.css';
 import {useState} from "react";
-import InputField from "../Input/index.js";
-import IpsumText from "../IpsumText/index.js";
+import InputField from "../Inputfield";
+import { IpsumTextGen } from "../Ipsumtext";
 
 
 // FUNCTION: APP COMPONENT
@@ -23,10 +23,10 @@ function App() {
         <p className="descr-para">{myPara}</p>
       </div>
       <div className="ipsumHolder">
-        <IpsumText ipsumText={ipsumText}></IpsumText>
+        <IpsumTextGen ipsumText={IpsumTextGen}></IpsumTextGen>
       </div>
       <div className="input-field">
-        <InputField inputField={inputField}></InputField>
+        <InputField inputField={InputField}></InputField>
       </div>
     </div>
   );
