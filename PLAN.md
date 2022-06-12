@@ -15,9 +15,10 @@ x - create the skeleton / boilerplate
 ----------------
 
 WHERE YOU'RE AT:
-- tried to fix all the import / export syntax but have probably missed some
-- tried to fix file system but probs got some wrong idk
-- the app won't display, just says "module not found" for ./src/index.js
+- fixed all the import / export syntax
+- fixed file system
+- app displays / renders
+- the array displays as a continuous string with no spaces; start here next time probs
 - I don't really have time to fix this today so let's hope I gain some insight that'll help me fix it faster next time lol.
 - ~ an attempt was made ~
 
