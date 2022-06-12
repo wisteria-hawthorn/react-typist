@@ -17,7 +17,7 @@ const ipsEmily = "This traverse may the poorest take, without oppress of toll, h
 
 const ipsAnthro = {
     
-    anthroOne : "It's no wonder we worry about the end of the world; worlds end all the time." ,
+    anthroOne : [ "It's" , "no" , "wonder" , "we" , "worry" , "about" , "the" , "end" , "of" , "the" , "world;" , "worlds" , "end" , "all" , "the" , "time."] ,
     
     anthroTwo : "We all know how loving ends. But I want to fall in love with the world anyway, to let it crack me open. I want to feel what there is to feel while I am here."
 
